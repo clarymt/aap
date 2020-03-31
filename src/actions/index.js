@@ -2,7 +2,7 @@ export const consoleAdd = () => {
     return {
         type: 'CONSOLEADD',
         //piece of data
-        payload: console.log()
+        payload: console.log("puppies")
     };
 };
 
