@@ -1,10 +1,10 @@
-import Product from './productList'
-import counterReducer from './logProduct'
+import App from '../App'
+import consoleReducer from './logProduct'
 import { combineReducers } from 'redux';
 
 const allReducers = combineReducers({
-    products: Product,
-    logProduct: counterReducer
+    products: App,
+    logProduct: consoleReducer
 
 });
 

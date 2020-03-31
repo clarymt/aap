@@ -1,13 +1,13 @@
-export const increment = (props) => {
+export const consoleAdd = () => {
     return {
-        type: 'INCREMENT',
+        type: 'CONSOLEADD',
         //piece of data
-        payload: console.log({'partNo':props.testStore.map.number, 'price':props.testStore.map.price})
+        payload: console.log()
     };
 };
 
-export const decrement = () => {
-    return {
-        type: 'DECREMENT'
-    };
-};
+// export const decrement = () => {
+//     return {
+//         type: 'DECREMENT'
+//     };
+// };
